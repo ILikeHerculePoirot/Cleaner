@@ -1,6 +1,3 @@
-
-#!GITHUB AND DRIVE UPDATE
-#TODO: Find all ways in which unwanted files can be cleared
 import pyautogui
 import time
 pyautogui.moveTo(47,1045)
@@ -38,16 +35,3 @@ pyautogui.press("Enter")
 time.sleep(1)
 pyautogui.hotkey('ctrl', 'a')
 pyautogui.press('delete')
-time.sleep(1)
-pyautogui.moveTo(670,550)
-pyautogui.click()
-pyautogui.moveTo(1035,600)
-pyautogui.click()
-pyautogui.moveTo(670,550)
-pyautogui.click()
-pyautogui.moveTo(1035,600)
-pyautogui.click()
-pyautogui.moveTo(670,550)
-pyautogui.click()
-pyautogui.moveTo(1035,600)
-pyautogui.click()
