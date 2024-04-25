@@ -1,6 +1,5 @@
 import pyautogui,time
 def presshotkey(key1,key2):pyautogui.hotkey(key1,key2)
-def moveclick(x,y):pyautogui.moveTo(x,y);pyautogui.click()
 def press(key):pyautogui.press(key);time.sleep(1)
 def type(text):pyautogui.typewrite(text)
 press('win')
